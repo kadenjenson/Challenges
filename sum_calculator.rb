@@ -28,7 +28,7 @@ def multiply
     puts "Give me 3 numbers %d" % n
     entries[:"num#{n}"] = gets.chomp.to_i
   end
-  puts "The sum is %d" % entries.values.inject(1, :*)
+  puts "The answer is %d" % entries.values.inject(1, :*)
 end
 
 ask_method
