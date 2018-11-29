@@ -11,4 +11,4 @@ function Invoice(subTotal) {
 const inv = new Invoice(200);
 console.log(inv.total);
 
-//For running in the terminal, line 12 needs to be as written in order to run in the command line. If running in a normal console, syntax would be "inv.total();"
+//For running in the terminal, line 12 needs to be as is in order to run in the command line. If running in a normal console, syntax would be "inv.total();"
